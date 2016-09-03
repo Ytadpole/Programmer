@@ -1,12 +1,9 @@
-package com.ytadpole.demo1;
+package com.ytadpole.demo1.ui.activity;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,9 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.ytadpole.demo1.com.ytadpole.demo1.conf.GlobleConf;
-import com.ytadpole.demo1.com.ytadpole.ui.BaseActivity;
-import com.ytadpole.demo1.com.ytadpole.ui.MainActivity;
+import com.ytadpole.demo1.R;
 
 import java.util.ArrayList;
 import java.util.List;

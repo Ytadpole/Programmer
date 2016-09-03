@@ -1,4 +1,4 @@
-package com.ytadpole.demo1.com.ytadpole.demo1.conf;
+package com.ytadpole.demo1.conf;
 
 /**
  * Created by YS on 2016/9/1.

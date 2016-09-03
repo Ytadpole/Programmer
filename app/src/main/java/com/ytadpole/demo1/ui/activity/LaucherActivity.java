@@ -1,14 +1,12 @@
-package com.ytadpole.demo1.com.ytadpole.ui;
+package com.ytadpole.demo1.ui.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
 
 import com.ytadpole.demo1.R;
-import com.ytadpole.demo1.WelcomeActivity;
-import com.ytadpole.demo1.com.ytadpole.demo1.conf.GlobleConf;
+import com.ytadpole.demo1.conf.GlobleConf;
 
 public class LaucherActivity extends BaseActivity {
 

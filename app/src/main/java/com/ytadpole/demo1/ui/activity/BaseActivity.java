@@ -1,7 +1,7 @@
-package com.ytadpole.demo1.com.ytadpole.ui;
+package com.ytadpole.demo1.ui.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class BaseActivity extends AppCompatActivity {
 
