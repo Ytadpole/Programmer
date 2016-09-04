@@ -6,17 +6,22 @@
     tools:context=".ui.fragment.FavorFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <com.cjj.MaterialRefreshLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refresh"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="开发者头条"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:background="@color/launcher_item_select"
-        android:textColor="@color/white_normal"/>
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/list"
         android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        />
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:overlay="false"
+            app:wave_show="true"
+            app:wave_color="@color/material_green"
+            app:wave_height_type="normal"
+            app:isLoadMore="true"
+            />
+    </com.cjj.MaterialRefreshLayout>
 </LinearLayout>

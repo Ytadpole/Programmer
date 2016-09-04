@@ -11,6 +11,7 @@ import android.widget.RadioGroup;
 import com.ytadpole.demo1.R;
 import com.ytadpole.demo1.ui.fragment.DynamicFragment;
 import com.ytadpole.demo1.ui.fragment.FavorFragment;
+import com.ytadpole.demo1.ui.fragment.HomeFragment;
 import com.ytadpole.demo1.ui.fragment.MyFragment;
 import com.ytadpole.demo1.ui.fragment.SearchFragment;
 
@@ -24,7 +25,7 @@ public class MainActivity extends FragmentActivity {
     @BindView(R.id.menu)
     RadioGroup menu;
     private Fragment[] mFragments;
-//    private FragmentManager mFManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +59,7 @@ public class MainActivity extends FragmentActivity {
     }
 
     private void initViewPager() {
-        mFragments = new Fragment[]{new FavorFragment(), new DynamicFragment(), new SearchFragment(), new MyFragment()};
+        mFragments = new Fragment[]{new HomeFragment(), new DynamicFragment(), new SearchFragment(), new MyFragment()};
         viewPager.setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
